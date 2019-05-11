@@ -15,10 +15,3 @@ var phraseArray = [ "#Dragons",
                     "One group member starts playing music"
                     "Maybe this will help distract him."
                   ];
-
-function chooseRandom(myArray) {
-  return myArray[Math.floor(Math.random() * myArray.length)];
-}
-var phrase = chooseRandom(phraseArray) + ", " + chooseRandom(phraseArray);
-
-Bot.tweet(phrase);
